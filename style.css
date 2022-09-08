@@ -1,0 +1,53 @@
+#title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.panels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top {
+    align-items: center;
+}
+
+#control {
+    display: flex;
+    margin: 64px;
+    gap: 32px;
+}
+
+.control-element {
+    min-width: 128px;
+}
+
+#color {
+    align-self: center;
+}
+
+.pad {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.element {
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: 1
+    px solid black;
+}
+
+#footer {
+    margin-top: 32px;
+}
